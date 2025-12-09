@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher Portal</title>
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Teacher Portal</h1>
+
+        <div class="menu">
+            <button onclick="showSection('staff')">Teaching Staff</button>
+            <button onclick="showSection('subjects')">Subjects</button>
+            <button onclick="showSection('schedule')">Class Schedule</button>
+            <button onclick="showSection('students')">Manage Students</button>
+            <button onclick="showSection('material')">Upload Materials</button>
+        </div>
+
+        <div id="content" class="content-box">
+            <h2>Welcome to Teacher Portal 👨‍🏫</h2>
+            <p>Select a category from the menu above.</p>
+        </div>
+
+        <a class="back" href="../index.html">⬅ Back to Home</a>
+    </div>
+
+    <script src="teacher.js"></script>
+</body>
+</html>

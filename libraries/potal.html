@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Portal</title>
+    <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Library & Resource Center</h1>
+
+        <div class="menu">
+            <button onclick="loadSection('search')">Search Books</button>
+            <button onclick="loadSection('issue')">Issue / Return</button>
+            <button onclick="loadSection('records')">Student Records</button>
+            <button onclick="loadSection('notices')">Library Notices</button>
+            <button onclick="loadSection('digital')">Digital Materials</button>
+        </div>
+
+        <div id="content" class="content-box">
+            <h2>Welcome to Library Portal 📚</h2>
+            <p>Select any module from above menu.</p>
+        </div>
+
+        <br>
+        <a class="back" href="../index.html">⬅ Back to Home</a>
+    </div>
+
+    <script src="portal.js"></script>
+</body>
+</html>

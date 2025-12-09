@@ -1,0 +1,68 @@
+/* faculty css */ 
+body {
+    background: #f7f9ff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #002b6b;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.menu button {
+    padding: 10px 20px;
+    background: #0059c9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background: #004095;
+}
+
+.content-box {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 12px #c8d4f2;
+    border-radius: 10px;
+}
+
+.card {
+    background: #e9f0ff;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 0;
+    color: #0a3187;
+}
+
+.back {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: #0062d9;
+}

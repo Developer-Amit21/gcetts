@@ -1,0 +1,58 @@
+body {
+    /* Use a relative path so the image loads when served over HTTP */
+    background: url("./gcetts.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(2px);
+    z-index: 0;
+}
+.login-container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #004085;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #004085;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00274d;
+}
+
+#loginMsg {
+    margin-top: 15px;
+    font-weight: bold;
+}

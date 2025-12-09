@@ -1,0 +1,59 @@
+/* student css */ 
+body {
+    font-family: Arial;
+    background: #f3f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.menu button {
+    padding: 10px 18px;
+    border: none;
+    background: #0066ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background: #004dcc;
+}
+
+.content-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.back {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: #0066ff;
+}

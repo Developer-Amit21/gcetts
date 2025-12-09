@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Portal</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📘 Exam Portal</h1>
+
+    <div class="exam-section">
+        <h2>Select Exam</h2>
+
+        <select id="examSelect">
+            <option value="">-- Choose Exam --</option>
+            <option value="mid1">Mid-Sem 1</option>
+            <option value="mid2">Mid-Sem 2</option>
+            <option value="final">Final Examination</option>
+        </select>
+
+        <button onclick="loadExam()">Start Exam</button>
+    </div>
+
+    <div id="examArea"></div>
+</div>
+
+<script src="exam.js"></script>
+</body>
+</html>

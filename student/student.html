@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Portal</h1>
+
+        <div class="menu">
+            <button onclick="openSection('profile')">Profile</button>
+            <button onclick="openSection('courses')">Courses</button>
+            <button onclick="openSection('attendance')">Attendance</button>
+            <button onclick="openSection('notes')">Notes</button>
+            <button onclick="openSection('exam')">Exams</button>
+        </div>
+
+        <div id="content" class="content-box">
+            <h2>Welcome Student 👋</h2>
+            <p>Select an option from above menu.</p>
+        </div>
+
+        <a class="back" href="../index.html">⬅ Back to Home</a>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>
